@@ -5,7 +5,7 @@ import allure
 @allure.suite("Тестирование калькулятора")
 @allure.feature("Тестирование функции калькулятора - умножение")
 @allure.title("Тест на проверку умножения с числами внутри диапазона integer")
-def test_division_for_integers_within_borders(setup, param_for_products_tests):
+def test_product_for_integers_within_borders(setup, param_for_products_tests):
     (input_data, expected_data) = param_for_products_tests
     with allure.step(f"отправляем запрос с входными данными {input_data} и получаем результат расчёта"):
         result = do_request_and_get_response(input_data)
