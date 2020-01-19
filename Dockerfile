@@ -3,8 +3,6 @@ FROM python:3-stretch
 COPY . /ModulBank
 WORKDIR /ModulBank
 
-RUN chmod +x allure/bin/allure
-
 RUN pip install -r requirements.txt;
 
 RUN apt-get update && \
@@ -17,5 +15,7 @@ RUN apt-get update && \
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
 
 RUN export JAVA_HOME
+
+RUN chmod +x allure/bin/allure
 
 CMD py.test tests -v -l --alluredir=allure_result; cd allure/bin/; ./allure serve ../../allure_result --host 172.17.0.2 --port 8080
