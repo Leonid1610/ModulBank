@@ -4,6 +4,12 @@ from help_functions.generate_random_operation import *
 
 class Bodies(object):
     def __init__(self, left_operand, operation, right_operand):
+        """
+        :param left_operand: Левый операнд для операции
+        :param operation: операция
+        :param right_operand: Правый операнд для операции
+        :return возвращает объкт body
+        """
         self.body = {"left_operand": left_operand,
                      "operation": operation,
                      "right_operand": right_operand}
