@@ -1,7 +1,8 @@
 import random
+from math import fabs
 
 
-class GenerateRandomNumbers(object):
+class NumberGenerator(object):
     def __init__(self, left_border, right_border):
         self.right_border = right_border
         self.left_border = left_border
@@ -10,36 +11,25 @@ class GenerateRandomNumbers(object):
         random_number = random.randint(self.left_border, self.right_border)
         return random_number
 
-    def generate_random_positive_number_for_sum(self):
-        # передаем от 1 до макс инт
-        """
-        :return:
-        """
-        number = random.randint(self.left_border, self.right_border)
-        result = random.randint(1, 2147483647-number) / random.randint(2, 5)
-        return result
 
-    def generate_random_negative_number_for_sum(self):
-        # передаем от 1 до макс инт
-        number = random.randint(self.left_border, self.right_border)
-        result = random.randint(-2147483648+number, -1) / random.randint(2, 5)
-        return result
+max_int = 2147483647
+min_int = -2147483648
 
 
 # операнды для деления и вычитания
-left_positive_operand = int(GenerateRandomNumbers(1, 2147483646).generate_random_number())
-right_positive_operand = int(GenerateRandomNumbers(1, 2147483646).generate_random_number())
-left_negative_operand = int(GenerateRandomNumbers(-2147483647, -1).generate_random_number())
-right_negative_operand = int(GenerateRandomNumbers(-2147483647, -1).generate_random_number())
-
-# операнды для сложения
-left_positive_operand_for_sum = int(GenerateRandomNumbers(1, 2147483646).generate_random_positive_number_for_sum())
-right_positive_operand_for_sum = int(GenerateRandomNumbers(1, 2147483646).generate_random_positive_number_for_sum())
-left_negative_operand_for_sum = int(GenerateRandomNumbers(1, 2147483646).generate_random_negative_number_for_sum())
-right_negative_operand_for_sum = int(GenerateRandomNumbers(1, 2147483646).generate_random_negative_number_for_sum())
+left_positive_operand = int(NumberGenerator(1, max_int).generate_random_number())
+right_positive_operand = int(NumberGenerator(1, max_int).generate_random_number())
+left_negative_operand = int(NumberGenerator(min_int, -1).generate_random_number())
+right_negative_operand = int(NumberGenerator(min_int, -1).generate_random_number())
 
 # операнды для умножения
-left_positive_operand_for_product = int(GenerateRandomNumbers(1, 500).generate_random_number())
-right_positive_operand_for_product = int(GenerateRandomNumbers(1, 500).generate_random_number())
-left_negative_operand_for_product = int(GenerateRandomNumbers(-500, -1).generate_random_number())
-right_negative_operand_for_product = int(GenerateRandomNumbers(-500, -1).generate_random_number())
+left_positive_operand_for_product = int(NumberGenerator(1, 500).generate_random_number())
+right_positive_operand_for_product = int(NumberGenerator(1, 500).generate_random_number())
+left_negative_operand_for_product = int(NumberGenerator(-500, -1).generate_random_number())
+right_negative_operand_for_product = int(NumberGenerator(-500, -1).generate_random_number())
+
+# операнды для сложения
+left_positive_operand_for_sum = int(NumberGenerator(0, max_int).generate_random_number())
+right_positive_operand_for_sum = int(max_int - left_positive_operand_for_sum)
+left_negative_operand_for_sum = int(NumberGenerator(min_int, 0).generate_random_number())
+right_negative_operand_for_sum = int(min_int + fabs(left_negative_operand_for_sum))
