@@ -1,0 +1,6 @@
+[
+  "test_product.py::test_division_for_integers_within_borders[all_positive_operands]",
+  "test_product.py::test_division_for_integers_within_borders[all_negative_operands]",
+  "test_product.py::test_division_for_integers_within_borders[right_negative_operand]",
+  "test_product.py::test_division_for_integers_within_borders[left_negative_operand]"
+]
