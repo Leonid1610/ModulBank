@@ -3,6 +3,8 @@ FROM python:3-stretch
 COPY . /ModulBank
 WORKDIR /ModulBank
 
+RUN chmod +x allure/bin/allure
+
 RUN pip install -r requirements.txt;
 
 RUN apt-get update && \

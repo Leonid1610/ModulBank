@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d025e36-f3ec-4d91-a9c0-8b3f8772a186" name="Default Changelist" comment="" />
+    <list default="true" id="2d025e36-f3ec-4d91-a9c0-8b3f8772a186" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/047105ce-6c17-47ba-9d2f-9a4fd5d97f91-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/063ad3fe-3538-443f-9d34-9bafd17f242d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/07034fab-e87f-4ac0-a1d7-73affd02b183-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/078356cb-676e-4d1d-b1ad-2d54e9a6f2c8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/0ca13b06-fbee-4283-a516-aa717f507a97-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/0dfec0c4-1d61-4f94-a31b-dfb68a82660e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/14188116-9fe3-4c71-be9a-dc2d86ae87c2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/14e95903-7f88-4b7b-a313-7bc93c94cf7b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/1e1c7bfd-3930-441a-8d6b-14646279190e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/1e346fcb-80b1-4634-af75-91d01464c729-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/21b82c57-f1cd-4215-8c86-b2fc44257d18-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/248e7427-72fc-4398-80f1-2ba4a297cdd7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/2714b9c5-403e-407e-8706-a10518c08c4f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/29ca1ebf-5cbd-49d2-a6e8-f4bbfe091397-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/2aa80c4a-9db9-46f9-8eb1-e5b932e10c87-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/2ce4f250-e27f-4e78-ac99-7fe2c69ba963-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/36fefe6b-3eae-43eb-9919-fb072c34a5c8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/3f2c2d3b-50e3-4d95-9dc7-928d17d8473c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/4783fc04-a2e9-4015-a3d8-e4de8d1c9c1b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/594e5d64-c074-4c8f-b526-9208c45fed9b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/5ea7e0ca-e228-4cd2-ae96-9484aac7a159-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/61cc0a45-72c5-402b-9542-174cea1a000d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/6239124a-2a29-48ac-8fe6-2542486e7765-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/625b4b48-1d50-418b-b085-aeded65e3b21-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/63f5a5fc-2e51-4c3c-bbad-f711bfc20276-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/6cbeb887-a09e-4ed2-987c-c054c5feb483-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/7149a0d3-01a9-4171-8ec5-54d8dc329741-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/782f8ccf-52fe-47c4-8803-140326822e61-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/7a6deb49-87a2-47f2-961c-5e5364b36d45-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/87d49c72-5600-4e17-8791-1ce5d61d8522-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/8a045305-3295-4c80-856d-688c7f3d935d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/8df891c7-6c41-41c9-9495-8e859b446e13-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/919b53dd-a66d-4db7-858a-f27afe2ac5d5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/930fe0f0-6f76-4b93-91cb-dd6f917b1988-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/98afe739-de8a-4b2a-b521-94d82496124b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/a0411861-4af6-4454-b98e-9e26e6d25154-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/a1f35270-9b56-438d-a7e2-ce4710d103da-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/a2acaa36-e837-4f2d-bdd3-1307880f6e97-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/a2db1249-3244-4426-a84e-7ed26f990a06-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/a912d475-6b47-42fb-9fc4-f495578ddd53-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/af0cbdbd-29a1-42bd-8c7b-ca9454ad2f4a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/b6b9b7c1-aede-433f-a8bb-47a03c1b02ab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/b9e6f243-bf6e-45e7-9135-ba6ac4083cce-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/bd4ed565-d111-4f7b-ab1f-1cf22e75cafc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/c2bf2667-a82f-41f7-89a3-977d9faff902-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/ca4dc7ea-07cb-4735-a565-d26607b73068-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/ce33d8c2-f0b3-44dc-9bc4-578744fe2515-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/cf503b62-a886-4128-8977-fe8ad1aec367-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/cfe1da03-4e47-40ab-8028-8bc38c93f890-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/d3a2bfa1-9680-4a5a-9a9b-7bdc9d3044e4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/d92de2d0-0130-47ec-bedb-4e84f3acbb36-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/d9b45f92-6f6f-43cf-8ba5-54c5fa539b41-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/dd23486c-c5a0-4a9e-bf0d-6973ea8ff771-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/e183c4dd-8024-418a-b7fd-b1c0f2d2ff22-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/e482cee3-35af-4947-94f8-cab86cb8343b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/e4c0c3ee-1295-43ee-9705-dfac166db10c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/e689d652-5363-4c64-b02d-022f3926343c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/eb037eb2-c825-4746-b941-61e820fe9c8f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/f4f1b301-3e04-4aea-8580-92fe3f6e6219-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/fa163771-37b6-4ede-b12d-610faa52885b-container.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +74,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/help_functions/create_bodies.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
               <caret line="28" column="81" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -52,11 +134,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Readme.md" />
-        <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/help_functions/do_request.py" />
         <option value="$PROJECT_DIR$/help_functions/create_body.py" />
         <option value="$PROJECT_DIR$/tests/test_division.py" />
@@ -66,6 +150,7 @@
         <option value="$PROJECT_DIR$/tests/test_product.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/help_functions/create_bodies.py" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -76,6 +161,7 @@
     <option name="height" value="956" />
   </component>
   <component name="ProjectId" id="1WXJe0fT2XzEzzSC04LHPYcA2vA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -88,16 +174,6 @@
               <item name="ModulBank" type="b2602c69:ProjectViewProjectNode" />
               <item name="ModulBank" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ModulBank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ModulBank" type="462c0819:PsiDirectoryNode" />
-              <item name="help_functions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ModulBank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ModulBank" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -106,6 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
   <component name="RecentsManager">
@@ -265,6 +342,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -279,7 +357,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -312,13 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="131" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="131" />
         </state>
       </provider>
     </entry>
@@ -403,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/help_functions/create_bodies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="28" column="81" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -427,6 +491,27 @@
           <folding>
             <element signature="e#0#65#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help_functions/create_bodies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="28" column="81" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
