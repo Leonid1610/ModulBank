@@ -18,4 +18,4 @@ RUN export JAVA_HOME
 
 RUN chmod +x allure/bin/allure
 
-CMD py.test tests -v -l --alluredir=allure_result; cd allure/bin/; ./allure serve ../../allure_result --host 172.17.0.2 --port 8080
+CMD py.test tests -v -l --alluredir=allure_result; cd allure/bin/; ./allure serve ../../allure_result --host 172.18.0.2 --port 8080
