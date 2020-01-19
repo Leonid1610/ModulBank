@@ -4,10 +4,17 @@ from math import fabs
 
 class NumberGenerator(object):
     def __init__(self, left_border, right_border):
+        """
+        :param left_border: левая граница диапазона
+        :param right_border: правая граница диапазона
+        """
         self.right_border = right_border
         self.left_border = left_border
 
     def generate_random_number(self):
+        """
+        :return: случайно сгенерированное число
+        """
         random_number = random.randint(self.left_border, self.right_border)
         return random_number
 
