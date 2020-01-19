@@ -28,6 +28,9 @@ def setup():
                 ids=["all_positive_operands", "all_negative_operands", "right_negative_operand",
                      "left_negative_operand"])
 def param_for_division_tests(request):
+    """
+        Фикстура, содержащая параметры для тестирования деления
+    """
     return request.param
 
 
@@ -42,6 +45,9 @@ def param_for_division_tests(request):
                 ids=["all_positive_operands", "all_negative_operands", "right_negative_operand",
                      "left_negative_operand"])
 def param_for_difference_tests(request):
+    """
+        Фикстура, содержащая параметры для тестирования вычитания
+    """
     return request.param
 
 
@@ -56,6 +62,9 @@ def param_for_difference_tests(request):
                 ids=["all_positive_operands", "all_negative_operands", "right_negative_operand",
                      "left_negative_operand"])
 def param_for_sum_tests(request):
+    """
+        Фикстура, содержащая параметры для тестирования сложения
+    """
     return request.param
 
 
@@ -70,6 +79,9 @@ def param_for_sum_tests(request):
                 ids=["all_positive_operands", "all_negative_operands", "right_negative_operand",
                      "left_negative_operand"])
 def param_for_products_tests(request):
+    """
+        Фикстура, содержащая параметры для тестирования умножения
+    """
     return request.param
 
 
@@ -80,4 +92,7 @@ def param_for_products_tests(request):
                 ids=["one_operand_more_than_max_int", "result_more_than_max_int", "one_operand_less_than_min_int",
                      "result_less_than_min_int"])
 def param_for_beyond_the_integer_range_tests(request):
+    """
+        Фикстура, содержащая параметры для тестирования случаев, когда операнды или результат выходят за границы integer
+    """
     return request.param
