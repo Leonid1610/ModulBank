@@ -33,12 +33,12 @@ def param_for_division_tests(request):
 
 @pytest.fixture(params=[(body_with_positive_numbers_for_difference, int(left_positive_operand -
                                                                         right_positive_operand)),
-                        (body_with_negative_numbers_for_difference, int(left_negative_operand -
-                                                                        right_negative_operand)),
-                        (body_with_right_negative_operand_for_difference, int(left_positive_operand -
-                                                                              right_negative_operand)),
-                        (body_with_left_negative_operand_for_difference, int(left_negative_operand -
-                                                                             right_positive_operand))],
+                        (body_with_negative_numbers_for_difference, int((left_negative_operand / 2) -
+                                                                        (right_negative_operand / 2))),
+                        (body_with_right_negative_operand_for_difference, int((left_positive_operand / 2) -
+                                                                              (right_negative_operand / 2))),
+                        (body_with_left_negative_operand_for_difference, int((left_negative_operand / 2) -
+                                                                             (right_positive_operand / 2)))],
                 ids=["all_positive_operands", "all_negative_operands", "right_negative_operand",
                      "left_negative_operand"])
 def param_for_difference_tests(request):
